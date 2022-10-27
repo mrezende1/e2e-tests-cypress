@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Primeiro projeto com Cypress",
   "main": "index.js",
-  "scripts": {
+  "scripts": { 
     "test": "npx cypress open"
   },
   "author": "Jacqueline Oliveira",
