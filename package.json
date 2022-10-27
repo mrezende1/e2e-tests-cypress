@@ -6,7 +6,7 @@
   "scripts": { 
     "test": "npx cypress open"
   },
-  "author": "Jacqueline Oliveira",
+  "author": "Mateus",
   "license": "ISC",
   "devDependencies": {
     "cypress": "^9.1.1",
