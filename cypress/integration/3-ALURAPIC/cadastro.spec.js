@@ -3,7 +3,7 @@ describe('Cadastro de usuarios alura pic', () => {
     beforeEach(() => {
         cy.visit('/')
     })
-
+ 
     it('verifica mensagens de email invalido', () => {
         cy.contains('a', 'Register now').click();
         cy.contains('button', 'Register').click();
