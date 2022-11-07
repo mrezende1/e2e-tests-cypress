@@ -31,7 +31,7 @@ describe('Buscar fotos e dados', ()=> {
            expect(res.body.id).to.be.equal(1) 
            expect(res.body).to.have.property('email')
            expect(res.body.email).to.be.equal("flavio@alurapic.com.br") 
-        }
+        } 
 
         )
     })
