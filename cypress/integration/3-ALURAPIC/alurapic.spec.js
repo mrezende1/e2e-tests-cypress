@@ -3,7 +3,7 @@ describe('Usabilidade tela inicial ', () => {
     beforeEach(() => {
       cy.visit('https://alura-fotos.herokuapp.com')
     })
-
+ 
     /* novos casos de teste */
     it('verifica mensagens tela inicial', () => {
         cy.contains('ap-vmessage', 'User name is required!').should('be.visible');
